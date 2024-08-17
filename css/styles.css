@@ -1,0 +1,156 @@
+
+header{
+
+    align-items: center;
+    text-align: center;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    position: absolute;;
+
+}
+p{
+    margin:0.5px;
+}
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/837/093/non_2x/beautiful-sunrise-mountain-landscape-watercolor-background-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    text-shadow: #2e7d32;
+    
+}
+@media only screen and (max-width:738px) {
+    body{
+        background-image:url("https://i.pinimg.com/originals/49/31/31/493131f69b5c755aab811d9178efe6a1.jpg");
+        color: rgb(147, 195, 228);
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #424f52;
+        border:10px;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .row{
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .col-md-4{
+        color:black;
+    }
+    footer{
+       
+        color: rgb(10, 96, 189);
+    }
+
+    
+}
+.logo{
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 04px8pxrgba(0, 0, 0, 0.2);   
+    
+}
+.col-md-4{
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin: 5px;
+    width: 350px;
+    box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
+}
+.weather {
+    background: linear-gradient(45deg, #6dbf49, #2a9d8f);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition:box-shadow 0.3s;
+    box-shadow: 010px20pxrgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.weather:hover {
+    background: linear-gradient(45deg, #2a9d8f, #6dbf49);
+    box-shadow: 015px25pxrgba(0, 0, 0, 0.3);
+}
+
+.weather:active {
+    background: linear-gradient(45deg, #2a9d8f, #6dbf49);
+    box-shadow: 05px10pxrgba(0, 0, 0, 0.2);
+}
+
+.fact {
+    background: linear-gradient(45deg, #4caf50, #388e3c);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    box-shadow: 010px20pxrgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.fact:hover {
+    background: linear-gradient(45deg, #388e3c, #4caf50);
+    box-shadow: 015px25pxrgba(0, 0, 0, 0.3);
+}
+
+.fact:active {
+    background: linear-gradient(45deg, #388e3c, #4caf50);
+    box-shadow: 05px10pxrgba(0, 0, 0, 0.2);
+}
+.define {
+    background: linear-gradient(45deg, #4caf50, #2e7d32);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition:box-shadow 0.3s;
+    box-shadow: 010px20pxrgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.define:hover {
+    background: linear-gradient(45deg, #2e7d32, #4caf50);
+    box-shadow: 015px25pxrgba(0, 0, 0, 0.3);
+}
+
+.define:active {
+    background: linear-gradient(45deg, #2e7d32, #4caf50);
+    box-shadow: 05px10pxrgba(0, 0, 0, 0.2);
+}
+input{
+    border-radius: 25px;
+    text-align: center;
+    text-shadow: #2a9d8f;
+}
